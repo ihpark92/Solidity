@@ -104,7 +104,7 @@ contract SuperUltraPowerCoin is StandardToken { // CHANGE THIS. Update the contr
 
     // This is a constructor function 
     // which means the following function name has to match the contract name declared above
-    function HashnodeTestCoin() {
+    function SuperUltraPowerCoin() {
         balances[msg.sender] = 1000000000000000000000;               // Give the creator all initial tokens. This is set to 1000 for example. If you want your initial tokens to be X and your decimal is 5, set this value to X * 100000. (CHANGE THIS)
         totalSupply = 1000000000000000000000;                        // Update total supply (1000 for example) (CHANGE THIS)
         name = "SuperUltraPowerCoin";                                   // Set the name for display purposes (CHANGE THIS)
